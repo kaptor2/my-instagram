@@ -1,0 +1,40 @@
+ .user {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    margin: 7px;
+  }
+
+  .user img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  
+  .user div {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .min {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .min img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  
+  .min div {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+  }

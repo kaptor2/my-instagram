@@ -1,0 +1,34 @@
+.left {
+    max-width: 850px;
+  }
+  
+  .post {
+    margin-bottom: 70px;
+    width: 650px;
+    min-height: 560px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  
+  .post .user {
+    margin: 12px 12px;
+  }
+  
+  .post img{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+  }
+  
+  .name {
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .descr {
+    padding: 0 20px;
+    margin: 0px 0 20px 0;
+  }

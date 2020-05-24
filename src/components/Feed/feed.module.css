@@ -1,0 +1,10 @@
+.container {
+  max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .feed {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+  }
