@@ -1,9 +1,9 @@
 export class InstaService {
 
-    __apiBase = 'http://localhost:3000';
+    _apiBase = 'http://localhost:3000';
 
     getResource = async (url) => {
-        const res = await fetch(`${this.__apiBase}${url}`); 
+        const res = await fetch(`${this._apiBase}${url}`); 
         if (!res.ok) {
             throw new Error(`Error ${res.status}`);
         }
@@ -12,5 +12,15 @@ export class InstaService {
 
     getAllPosts = async () => {
         return await this.getResource('/posts/');
+    }
+
+    getAllPhotos = async () => {
+        let res = await this.getResource('/posts/');
+        return res.map(this._postTransform);
+
+    }
+
+    _postTransform = (post) => {
+        return {src : post.src}
     }
 }

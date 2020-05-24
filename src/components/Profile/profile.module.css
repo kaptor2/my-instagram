@@ -1,0 +1,17 @@
+
+.container {
+  max-width: 1140px;
+  margin: 70px auto;
+  }
+
+  .palette {
+    display: grid;
+    grid-template-columns: calc(100% / 3 - 60px) calc(100% / 3 - 60px) calc(100% / 3 - 60px);
+  }
+  
+  .palette img {
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    object-fit: cover;
+  }

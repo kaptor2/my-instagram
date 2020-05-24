@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import style from './header.module.css'
-import { NavLink } from 'react-router-dom';
+import { NavLink, BrowserRouter } from 'react-router-dom';
 import logo  from '../../logo.svg'
 
 export class Header extends Component {
