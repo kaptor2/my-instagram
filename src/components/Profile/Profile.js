@@ -41,16 +41,13 @@ export class Profile extends Component {
 
     render(){
         const {error, photos} = this.state
-
         if(error) return (<div>Ошибка сервера</div>)
-
         const items = this.renderPalette(photos);
-
         return(
             <div className={`${style.container} ${style.profile}`}>
                 <User 
                     src='https://www.gl5.ru/photos/z/zeinalov-elman/1.jpg'
-                    name='John'/>
+                    name='John'/>      
                 <div className={style.palette}>
                     { items }
                 </div>
