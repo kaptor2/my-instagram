@@ -4,9 +4,6 @@ import { Header } from './components/Header/Header';
 import { Feed } from './components/Feed/Feed';
 import { BrowserRouter, Route} from 'react-router-dom';
 import { Profile } from './components/Profile/Profile';
-//import myJson from 'https://raw.githubusercontent.com/kaptor2/my-instagram/master/src/posts.json'
-
-  //console.log(myJson);
 
 export const App = () => {
 
